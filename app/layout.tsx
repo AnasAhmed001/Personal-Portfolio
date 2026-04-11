@@ -4,6 +4,7 @@ import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "sonner";
 import SmoothScrolling from "@/components/SmoothScrolling";
 import "./globals.css";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 // Same fonts as original portfolio
 const plusJakartaSans = Plus_Jakarta_Sans({
@@ -52,7 +53,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <SmoothScrolling>
-            {children}
+            <TooltipProvider>{children}</TooltipProvider>
             <Toaster />
           </SmoothScrolling>
         </ThemeProvider>

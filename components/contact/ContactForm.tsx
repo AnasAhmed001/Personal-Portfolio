@@ -141,7 +141,7 @@ const ContactForm = ({ className }: ContactFormProps) => {
           "rounded-md px-5 py-2.5",
           "text-sm font-medium",
           "bg-primary text-primary-foreground",
-          "transition-all duration-300 ease-out",
+          "transition-all duration-300 ease-out cursor-pointer",
           isSubmitting && "opacity-70 cursor-not-allowed"
         )}
         whileHover={{
