@@ -9,7 +9,7 @@ export const portfolioData = {
     email: "hafizanasahmed8@gmail.com",
     linkedin: "https://www.linkedin.com/in/anas-ahmed01",
     github: "https://github.com/AnasAhmed001",
-    portfolio: "https://anasahmed.me",
+    portfolio: "https://anas-ahmed.vercel.app",
   },
 
   skills: {

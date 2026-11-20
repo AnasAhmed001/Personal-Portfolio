@@ -20,12 +20,63 @@ const playfairDisplay = Playfair_Display({
 });
 
 // Same metadata as original index.html
+const SITE_URL = "https://anas-ahmed.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Anas Ahmed | Portfolio",
+  metadataBase: new URL(SITE_URL),
+  title: {
+    default: "Anas Ahmed | Full Stack Developer & Agentic AI Engineer",
+    template: "%s | Anas Ahmed",
+  },
   description:
-    "Hi I am Anas Ahmed, a MERN Stack developer from Pakistan with strong foundation in Frontend Technologies. This is my Personal Portfolio that reflects my work and experience as a MERN Stack Developer.",
-  keywords:
-    "Anas Ahmed Portfolio, Frontend Developer Portfolio, React Developer Portfolio, MERN Stack Developer Portfolio, Portfolio, JavaScript",
+    "Full Stack Developer and Agentic AI Engineer from Pakistan. Specializing in React, Next.js, Node.js, Python, and AI-powered applications. View my projects, experience, and get in touch.",
+  keywords: [
+    "Anas Ahmed",
+    "Full Stack Developer",
+    "MERN Stack Developer",
+    "Agentic AI Engineer",
+    "React Developer",
+    "Next.js Developer",
+    "Node.js Developer",
+    "Python Developer",
+    "Portfolio",
+    "Karachi",
+    "Pakistan",
+    "Frontend Developer",
+    "Web Developer",
+  ],
+  authors: [{ name: "Anas Ahmed", url: SITE_URL }],
+  creator: "Anas Ahmed",
+  publisher: "Anas Ahmed",
+  alternates: {
+    canonical: SITE_URL,
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: SITE_URL,
+    siteName: "Anas Ahmed Portfolio",
+    title: "Anas Ahmed | Full Stack Developer & Agentic AI Engineer",
+    description:
+      "Full Stack Developer and Agentic AI Engineer from Pakistan. Specializing in React, Next.js, Node.js, Python, and AI-powered applications.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Anas Ahmed | Full Stack Developer & Agentic AI Engineer",
+    description:
+      "Full Stack Developer and Agentic AI Engineer from Pakistan. Specializing in React, Next.js, Node.js, Python, and AI-powered applications.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
   verification: {
     google: "lE2vlRKohTflb5fKN2wLw2BTwoBBYY33IJUb9SpMJ08",
   },
