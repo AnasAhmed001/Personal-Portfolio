@@ -10,7 +10,7 @@ import ScrollProgressBar from "@/components/motion/ScrollProgressBar";
 
 export default function Home() {
   return (
-    <div className="relative min-h-screen flex flex-col overflow-x-hidden max-w-full">
+    <div className="relative min-h-screen flex flex-col max-w-full">
       <ScrollProgressBar />
       <Header />
       <main className="flex-1">
