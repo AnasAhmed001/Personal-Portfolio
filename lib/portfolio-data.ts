@@ -77,17 +77,38 @@ export const portfolioData = {
     {
       name: "AI Task Manager",
       period: "Recent",
-      technologies: ["Nextjs", "Tailwind CSS", "Shadcn UI", "OpenAI Agents SDK", "MCP SDK", "FastAPI", "Python", "NeonDB"],
+      technologies: [
+        "Nextjs",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "OpenAI Agents SDK",
+        "MCP SDK",
+        "FastAPI",
+        "Python",
+        "NeonDB",
+      ],
       highlights: [
         "Built an AI Task Manager that helps users manage their tasks using natural language prompts.",
       ],
       liveUrl: "https://q4-hackathon-2.vercel.app",
-      githubUrl: "https://github.com/AnasAhmed001/Q4-Hackathon-2/tree/main/phase-3-todo-chatbot",
+      githubUrl:
+        "https://github.com/AnasAhmed001/Q4-Hackathon-2/tree/main/phase-3-todo-chatbot",
     },
     {
       name: "AI Content Generator",
       period: "Recent",
-      technologies: ["Nextjs", "Tailwind CSS", "Ant Design", "Gemini API", "Node.js", "MongoDB", "Expressjs", "Redis", "BullMQ", "Python"],
+      technologies: [
+        "Nextjs",
+        "Tailwind CSS",
+        "Ant Design",
+        "Gemini API",
+        "Node.js",
+        "MongoDB",
+        "Expressjs",
+        "Redis",
+        "BullMQ",
+        "Python",
+      ],
       highlights: [
         "Built an AI content creator that connects social accounts, generates content roadmaps, and schedules posts intelligently.",
       ],
@@ -97,15 +118,31 @@ export const portfolioData = {
     {
       name: "Saylani Moments",
       period: "Recent",
-      technologies: ["React", "Tailwind CSS", "Shadcn UI", "AWS", "DynamoDB", "Lambda", "S3"],
+      technologies: [
+        "React",
+        "Tailwind CSS",
+        "Shadcn UI",
+        "AWS",
+        "DynamoDB",
+        "Lambda",
+        "S3",
+      ],
       highlights: [
         "A face-detecting gallery built exclusively for Saylani Welfare International that streamlined event photo delivery.",
       ],
       githubUrl: "https://github.com/AnasAhmed001/Face-detecting-gallery-app",
     },
     {
+      name: "TextBook RAG Chatbot",
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Docusaurus", "Open AI Agents SDK", "Qdrant", "Cohere", "Pyhton", "FastAPI"],
+      highlights: [
+        "Developed and wrote a Physical AI And Humanoid Robotics Textbook with a embeded RAG based chatbot that answers reader's queries about the topics of the textbook from its knwoledge base.",
+      ],
+      liveUrl: "https://react-weather-app-eosin-iota.vercel.app/",
+      githubUrl: "https://github.com/AnasAhmed001/React-Weather-App",
+    },
+    {
       name: "Blogging App",
-      period: "Recent",
       technologies: ["React", "Tailwind CSS", "DaisyUI", "Firebase"],
       highlights: [
         "A clean, modern Blogging App built using ReactJS, Tailwind CSS, DaisyUI. It includes Firebase Authentication and Firestorage for seamless data storage and retrieval.",
@@ -115,23 +152,12 @@ export const portfolioData = {
     },
     {
       name: "Meme Maker App",
-      period: "Aug 2024 – Sep 2024",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
       highlights: [
         "Built a Meme Maker App using NextJS and TailwindCSS which comes with in which user can create and download.",
       ],
       liveUrl: "https://meme-maker-drab.vercel.app/",
       githubUrl: "https://github.com/AnasAhmed001/meme-maker",
-    },
-    {
-      name: "Weather App",
-      period: "Recent",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
-      highlights: [
-        "Built a beautiful weather app using ReactJS and tailwind CSS. Featuring a Responsive UI and geolocation to get user current loacation and display the weather using OpenWeatherApi.",
-      ],
-      liveUrl: "https://react-weather-app-eosin-iota.vercel.app/",
-      githubUrl: "https://github.com/AnasAhmed001/React-Weather-App",
     },
   ],
 

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   keywords:
     "Anas Ahmed Portfolio, Frontend Developer Portfolio, React Developer Portfolio, MERN Stack Developer Portfolio, Portfolio, JavaScript",
   verification: {
-    google: "YhWhHSoqqTrq03-mHPisbIiKBVj3FzuY93wfMAd4oWc",
+    google: "lE2vlRKohTflb5fKN2wLw2BTwoBBYY33IJUb9SpMJ08",
   },
 };
 
